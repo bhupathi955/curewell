@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_bhupathi955_curewell_1746345007199-pr-trigger-input-set
+  identifier: Build_bhupathi955_curewell_1746345007199prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_bhupathi955_curewell_1746345007199
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
